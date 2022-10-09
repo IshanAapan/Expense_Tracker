@@ -38,8 +38,7 @@ const day=props.dte.toLocaleString('en-US',{day:'2-digit'});
                     {/* <td>{props.descp}</td> */}
                     <td>{props.descp}</td>
                     <td>{props.amont}</td>
-                   {/* <td> <input type="text" value={echange} onChange={changehandler}/></td> */}
-                   {/* <td> <button onClick={clicker} >Change Title</button></td> */}
+                   
                 </tr>
             </table>
             {/* <h3 id="first">{props.dte.toISOString()}</h3>

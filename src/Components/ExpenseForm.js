@@ -31,7 +31,9 @@ const ExpenseForm=(props)=>{
         fun_amnt('');
         fun_dte('');
 
-    }
+    };
+
+    
     return(
         <div>
             <form onSubmit={SubmitHandler}>
